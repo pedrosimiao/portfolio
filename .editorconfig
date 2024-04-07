@@ -1,0 +1,13 @@
+root = true  #informa que essa é a configuração principal desse projeto se tratando de estilos de codigos
+
+
+# Caso exista mais de um arquivo do editorconfig utiliza-se [*] para sinalizar
+# que esta configuração serve para todos os arquivos
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf # lf é o que possui mais estabilidade entre todos os sistemas operacionais
+charset = utf-8
+trim_trailing_whitespace = true # adiciona espaço em branco entre argumentos, etc. Para melhor visualização.
+insert_final_newline = true #adiciona uma linha em branco ao final do código
